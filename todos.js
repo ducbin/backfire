@@ -43,7 +43,8 @@ $(function(){
     model: Todo,
 
     // Save all of the todo items in a Firebase.
-    firebase: new Firebase("https://backbone.firebaseio.com"),
+    //firebase: new Firebase("https://backbone.firebaseio.com"),
+    firebase: new Firebase("https://ducbinh.firebaseio.com/todos"),
 
     // Filter down the list of all todo items that are finished.
     done: function() {
